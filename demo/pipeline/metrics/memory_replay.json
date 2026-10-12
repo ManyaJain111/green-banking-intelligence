@@ -1,0 +1,59 @@
+{
+  "customers": 300,
+  "rounds": [
+    {
+      "round": 1,
+      "date": "2026-09-30",
+      "customers": 300,
+      "shown": 327,
+      "customers_shown_something": 287,
+      "suppressed_by_memory": 8,
+      "paused_no_interest": 0,
+      "responses": {
+        "clicked": 110,
+        "no_response": 93,
+        "dismissed": 73,
+        "not_interested": 51
+      }
+    },
+    {
+      "round": 2,
+      "date": "2026-10-30",
+      "customers": 300,
+      "shown": 205,
+      "customers_shown_something": 193,
+      "suppressed_by_memory": 132,
+      "paused_no_interest": 0,
+      "reshown_within_cooldown": 0,
+      "new_products_shown": 2,
+      "responses": {
+        "clicked": 86,
+        "dismissed": 52,
+        "no_response": 41,
+        "not_interested": 26
+      }
+    },
+    {
+      "round": 3,
+      "date": "2026-11-29",
+      "customers": 300,
+      "shown": 126,
+      "customers_shown_something": 119,
+      "suppressed_by_memory": 208,
+      "paused_no_interest": 1,
+      "reshown_within_cooldown": 0,
+      "new_products_shown": 0,
+      "responses": {
+        "clicked": 59,
+        "no_response": 33,
+        "dismissed": 24,
+        "not_interested": 10
+      }
+    }
+  ],
+  "cooldown_days": {
+    "dismissed": 90,
+    "not_interested": 180
+  },
+  "fatigue_contacts": 3
+}
